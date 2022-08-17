@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="Todo.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>TODO LIST</h1>
+        <div class="box">
+            <h2>Add Items</h2>
+            <input type="text" placeholder="Enter your task" class="inputfeild" id="inputid" oninput="myFunction()">
+            <button class="addbutton" onclick="addbut()">Add</button>
+        </div>
+        <br>
+        <div class="box2">
+
+            <h2>Task</h2>
+            <hr>
+            <div class="item">
+                <p id="secondbox"></p>
+                <button class="delbutton" onclick="delbutton()">x</button>
+            </div>
+            
+        </div>
+
+    </div>
+    <script src="Todo.js"></script>
+
+
+</body>
+
+</html>
